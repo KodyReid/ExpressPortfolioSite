@@ -1,0 +1,32 @@
+<%- include partials/header.ejs %>
+
+
+<%- include partials/main_nav.ejs %>
+  
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <div id="title">  
+            <h1 class="display-4">Welcome to the <%= title %> page!</h1>
+      </div>
+    
+ <form>     
+    <legend id="legendHead">Personal Information:</legend>	
+	  <label>Name:</label>
+	  <input id="txtBoxLoc" name="txtName" size="25" tabindex="1" type="text" required="required"><br><br>
+	  <label>Email:</label>
+	  <input id="txtBox2Loc" name="txtEmail" size="25" tabindex="3" type="text" required="required"><br><br>
+	  <label>Phone Number:</label>
+	  <input id="txtBox3Loc" name="txtPhone" size="25" tabindex="5" type="text" required="required"><br>
+      <input id="inputBtn" name="btnSubmit" tabindex="39" type="submit" value="Submit Form">
+<input id="resetBtn" name="btnReset" tabindex="41" type="reset" value="Clear Form">
+</form>
+
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>
+
+
+<%- include partials/footer.ejs %>
+
+  
