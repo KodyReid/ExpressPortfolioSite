@@ -1,4 +1,7 @@
 /* custom css here */
+body { 
+    padding-bottom: 75px; 
+}
 #photo {
     text-align: center;
 }
