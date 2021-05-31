@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+  res.render('index', { title: 'Home', homeMessage: 'Thank you for visiting my page!' });
 });
 
 /* GET About Me page. */
