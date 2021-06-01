@@ -45,3 +45,28 @@ div.desc {
     padding: 15px;
     
 }
+#txtBoxLoc{
+    margin-left: 5px;
+}
+#txtBox2Loc{
+    margin-left: 10px;
+}
+#txtBox3Loc{
+    margin-left: 5px;
+}
+#inputBtn {
+    margin-left: 50px;
+}
+#button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contactText {
+    
+    text-align: center;
+}
+#contactBox{
+    background-color: #d5e1df;
+    border-radius:15px solid rgb(8, 4, 4);
+}
