@@ -1,3 +1,9 @@
+/*  File Name: bottom_nav.js
+      Name: Kody Reid
+      Student Number: 301164732
+      Date: June 1, 2021
+*/
+
 // installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');
