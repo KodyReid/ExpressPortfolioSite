@@ -24,6 +24,13 @@ body {
     border-radius: 5px;
     font-size: 2em;
 }
+#missionText{
+    background-color: #d5e1df;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 div.gallery {
         
     margin: auto;
@@ -69,11 +76,9 @@ div.desc {
     margin-left: auto;
     margin-right: auto;
 }
-#contactText {
-    
+#contactText {    
     text-align: center;
 }
 #contactBox{
     background-color: #d5e1df;
-    border-radius:15px solid rgb(8, 4, 4);
 }
